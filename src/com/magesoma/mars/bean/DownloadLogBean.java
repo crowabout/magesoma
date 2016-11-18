@@ -1,9 +1,10 @@
-package com.magesoma.mars.bean;
+﻿package com.magesoma.mars.bean;
 
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 import java.util.Date;
+
 
 /**
  * Created by u on 2016/7/17.

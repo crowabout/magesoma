@@ -1,4 +1,5 @@
-package com.magesoma.mars.bean;
+﻿package com.magesoma.mars.bean;
+
 
 import org.hibernate.annotations.GenericGenerator;
 

@@ -2,6 +2,7 @@ package com.magesoma.mars.bean;
 
 import org.hibernate.annotations.GenericGenerator;
 
+
 import javax.persistence.*;
 import java.util.Date;
 
