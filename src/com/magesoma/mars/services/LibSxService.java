@@ -10,7 +10,8 @@ import java.util.List;
 public interface LibSxService {
 
         public void delById(int id);
-        public void save(List<?> t);
+        public void saveOne(Object t);
+        public void saveList(List<? extends BaseBean> t);
         public int insert();
         public void update();
 }

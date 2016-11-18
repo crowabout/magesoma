@@ -7,10 +7,12 @@ import java.util.Date;
 
 /**
  * Created by u on 2016/7/16.
+ *
+ * cookies 表
  */
 @Entity
 @Table(name="cookie")
-public class Cookie extends BaseBean{
+public class CookieBean extends BaseBean{
 
     @Id
     @Column(name="ID")
@@ -32,7 +34,7 @@ public class Cookie extends BaseBean{
     @Column(name="isOnlyHttp")
     private boolean isOnlyHttp;
     @Column(name="security")
-    private String security;
+    private boolean security;
 
     public long getId() {
         return ID;
@@ -98,11 +100,11 @@ public class Cookie extends BaseBean{
         this.isOnlyHttp = isOnlyHttp;
     }
 
-    public String getSecurity() {
+    public boolean getSecurity() {
         return security;
     }
 
-    public void setSecurity(String security) {
+    public void setSecurity(boolean security) {
         this.security = security;
     }
 

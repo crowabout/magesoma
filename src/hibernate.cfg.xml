@@ -10,8 +10,10 @@
         <property name="connection.password">ghost</property>
         <!-- DB schema will be updated if needed -->
          <property name="hbm2ddl.auto">update</property>
-        <mapping class="com.magesoma.mars.bean.Books"/>
-        <mapping class="com.magesoma.mars.bean.ReaderInfo"/>
-        <mapping class="com.magesoma.mars.bean.Cookie"/>
+        <property name="current_session_context_class">thread</property>
+        <mapping class="com.magesoma.mars.bean.BooksBean"/>
+        <mapping class="com.magesoma.mars.bean.ReaderInfoBean"/>
+        <mapping class="com.magesoma.mars.bean.CookieBean"/>
+        <mapping class="com.magesoma.mars.bean.DownloadLogBean"/>
     </session-factory>
 </hibernate-configuration>

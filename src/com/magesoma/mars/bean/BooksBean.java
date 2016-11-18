@@ -10,8 +10,8 @@ import java.util.Date;
  */
 @Entity
 @Table(name="tb_books")
-public class Books extends BaseBean{
-   public Books(){
+public class BooksBean extends BaseBean{
+   public BooksBean(){
       super();
    }
    @Id
